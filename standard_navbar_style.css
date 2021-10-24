@@ -32,7 +32,13 @@ header {
     justify-content: center;
 }
 
-.hamburger {
+.hamburger-and-close {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hamburger,
+.closebtn {
     width: 40px;
     height: 40px;
 }
@@ -92,6 +98,10 @@ header {
         width: 35px;
         height: 35px;
         display: block;
+    }
+    .closebtn {
+        width: 35px;
+        height: 35px;
     }
     .navlinks {
         /* border: 1px solid black; */
