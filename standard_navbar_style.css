@@ -1,0 +1,116 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.logo-and-hamburger {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.hamburger {
+    width: 40px;
+    height: 40px;
+}
+
+.navlinks {
+    /* border: 1px solid black; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navlink {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navlink:hover {
+    background-color: black;
+    color: white;
+}
+
+@media all and (max-width: 768px) {
+    header {
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 3rem;
+        display: block;
+        background-color: #fff;
+    }
+    .logo-and-hamburger {
+        /* border: 1px solid black; */
+        margin-top: 4px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo {
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .hamburger {
+        /* border: 1px solid black; */
+        width: 35px;
+        height: 35px;
+        display: block;
+    }
+    .navlinks {
+        /* border: 1px solid black; */
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        opacity: 0;
+        background-color: white;
+    }
+    .navlink {
+        width: 100%;
+        border-radius: 0;
+        height: 25%;
+        border: none;
+    }
+    .navlinks-open {
+        height: 300px;
+        opacity: 1;
+    }
+}
