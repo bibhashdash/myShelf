@@ -12,8 +12,8 @@ titleCard.addEventListener("click", function() {
     microbuttonArrow.style.transform = "translateX(700px)";
     titleCard.style.transition = "all 1.4s";
 
-    titlecardHeading.style.transition = "all 0.5s";
-    microbuttonArrow.style.transition = "all 0.5s";
+    titlecardHeading.style.transition = "all 0.3s";
+    microbuttonArrow.style.transition = "all 0.3s";
 
     modalLayer.style.transform = "translateX(1px)";
     modalLayer.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
@@ -27,8 +27,8 @@ microbuttonClose.addEventListener("click", function() {
     titleCard.style.width = "60%";
     titlecardHeading.style.transform = "translateX(-10px)";
     microbuttonArrow.style.transform = "translateX(-10px)";
-    titleCard.style.transition = "all 1s";
+    titleCard.style.transition = "all 0.8s";
 
-    titlecardHeading.style.transition = "all 2.6s";
-    microbuttonArrow.style.transition = "all 2.6s";
+    titlecardHeading.style.transition = "all 2.5s";
+    microbuttonArrow.style.transition = "all 2.5s";
 });
