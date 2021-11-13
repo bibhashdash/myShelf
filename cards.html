@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <link rel="stylesheet" href="cards_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- This is a 1-card component where clicking on a card will reveal some text. useful for general description of services -->
+    <!-- each horizontal aligned card comprises -->
+    <!-- Photo -->
+    <!-- A heading with an arrow inviting user to click -->
+    <!-- when arrow is clicked, photo is blurred, a second layer of black w reduced opacity appears -->
+    <!-- descriptive text on top of 2nd layer. also a close button to the top right - comes in from the left in a smooth transition -->
+    <!-- heading and arrow disappear to the right in a smooth transition -->
+
+    <section class="section section-cards">
+        <div class="container container-cards">
+            <div class="card">
+                <div class="title title-card">
+                    <h2 class="title-card-heading">
+                        Building the buildings of tomorrow
+                    </h2>
+                    <div class="microbutton microbutton-arrow">
+                        <img src="images/arrow-right-solid.svg" alt="" />
+                    </div>
+                </div>
+                <div class="modal-layer">
+                    <div class="microbutton microbutton-close">
+                        <img src="images/times-solid.svg" alt="" />
+                    </div>
+                    <div class="text text-card">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima aliquam hic, illo officia vitae distinctio architecto inventore. Dolores quia, minus aliquam facere tenetur repellendus sapiente nam perspiciatis quaerat unde tempora corrupti natus
+                            repellat, numquam accusamus quos qui voluptates perferendis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="cards_script.js"></script>
+</body>
+
+</html>
