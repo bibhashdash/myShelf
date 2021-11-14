@@ -25,8 +25,8 @@ microbuttonClose.addEventListener("click", function() {
     modalLayer.style.backgroundColor = "white";
     modalLayer.style.transition = "all 1.5s";
     titleCard.style.width = "60%";
-    titlecardHeading.style.transform = "translateX(-10px)";
-    microbuttonArrow.style.transform = "translateX(-10px)";
+    titlecardHeading.style.transform = "translateX(-1px)";
+    microbuttonArrow.style.transform = "translateX(-1px)";
     titleCard.style.transition = "all 0.8s";
 
     titlecardHeading.style.transition = "all 2.5s";
