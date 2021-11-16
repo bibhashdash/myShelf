@@ -17,7 +17,7 @@ titleCard.addEventListener("click", function() {
 
     modalLayer.style.transform = "translateX(1px)";
     modalLayer.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
-    modalLayer.style.transition = "all 1.4s";
+    modalLayer.style.transition = "all 0.5s";
 });
 
 microbuttonClose.addEventListener("click", function() {

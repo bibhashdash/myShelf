@@ -41,6 +41,7 @@ body {
 
 .card {
     /* border: 1px solid black; */
+    position: relative;
     width: 800px;
     height: 350px;
     display: flex;
@@ -97,6 +98,7 @@ body {
     background-color: rgba(0, 0, 0, 0);
     color: #fff;
     transform: translateX(-900px);
+    position: absolute;
 }
 
 .microbutton-close {
