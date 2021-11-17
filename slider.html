@@ -1,0 +1,72 @@
+<!-- slider based component -->
+<!-- useful for showing photo galleries -->
+<!-- also useful for showing customer reviews -->
+<!-- This test case uses 6 photos -->
+<!-- each photo has a title card -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="slider_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+    <title>Slider</title>
+</head>
+
+<body>
+    <section class="section section-slider">
+        <div class="container container-slider">
+            <div class="slider-heading">
+                <h1>Photo Gallery</h1>
+            </div>
+            <div class="gallery-container">
+                <div class="slider-nav slider-nav-previous">
+                    <img src="images/arrow-left-solid.svg" alt="" />
+                </div>
+                <div class="slider-nav slider-nav-next">
+                    <img src="images/arrow-right-solid (1).svg" alt="" />
+                </div>
+                <div class="slides">
+                    <div class="slide slide1 active">
+                        <div class="slide-title slide-title1">
+                            <h2>This is photo One</h2>
+                        </div>
+                    </div>
+                    <div class="slide slide2 inactive">
+                        <div class="slide-title slide-title2">
+                            <h2>This is photo Two</h2>
+                        </div>
+                    </div>
+                    <div class="slide slide3 inactive">
+                        <div class="slide-title slide-title3">
+                            <h2>This is photo Three</h2>
+                        </div>
+                    </div>
+                    <div class="slide slide4 inactive">
+                        <div class="slide-title slide-title4">
+                            <h2>This is photo Four</h2>
+                        </div>
+                    </div>
+                    <div class="slide slide5 inactive">
+                        <div class="slide-title slide-title5">
+                            <h2>This is photo Five</h2>
+                        </div>
+                    </div>
+                    <div class="slide slide6 inactive">
+                        <div class="slide-title slide-title6">
+                            <h2>This is photo Six</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="slider_script.js"></script>
+</body>
+
+</html>
