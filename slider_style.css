@@ -49,11 +49,13 @@ body {
 .slider-nav {
     position: absolute;
     z-index: 121212;
+    padding: 5px;
     width: 50px;
     height: 50px;
     top: 40%;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     cursor: pointer;
+    border-radius: 50%;
 }
 
 .slider-nav-previous {
@@ -92,14 +94,31 @@ body {
 }
 
 .slide-title {
-    background-color: #fff;
-    padding: 0rem 1rem 0rem 1rem;
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 1rem 1rem 1rem 1rem;
     /* border: 1px solid rgb(255, 0, 0); */
-    width: fit-content;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.quote-mark-icon {
+    width: 50px;
+    height: 50px;
 }
 
 .slide-title-text {
     width: fit-content;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.slide-title-attribution {
+    text-align: center;
+    color: rgb(255, 202, 28);
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 
 .slide1 {
