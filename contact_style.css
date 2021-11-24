@@ -1,0 +1,95 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans", sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.section {
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 3rem;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.form-container {
+    /* border: 1px solid rgb(219, 219, 219); */
+    justify-self: center;
+    padding: 2rem;
+}
+
+.form-description {
+    /* border: 1px solid rgb(24, 153, 73); */
+    width: 100%;
+}
+
+input {
+    width: 97%;
+    height: 2rem;
+}
+
+textarea {
+    width: 97%;
+}
+
+.btn-form {
+    width: 98%;
+    height: 3rem;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.contact-details-container {
+    /* border: 1px solid rgb(24, 5, 5); */
+    justify-self: center;
+    align-self: center;
+}
+
+@media all and (max-width: 1024px) {
+    .container {
+        /* border: 1px solid rgb(255, 0, 0); */
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-container {
+        width: 80%;
+        align-self: center;
+    }
+}
