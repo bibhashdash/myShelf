@@ -43,6 +43,10 @@ header {
     height: 40px;
 }
 
+.closebtn {
+    position: absolute;
+}
+
 .navlinks {
     /* border: 1px solid black; */
     width: 50%;
@@ -77,6 +81,7 @@ header {
         height: 3rem;
         display: block;
         background-color: #fff;
+        position: fixed;
     }
     .logo-and-hamburger {
         /* border: 1px solid black; */
