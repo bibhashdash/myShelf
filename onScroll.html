@@ -1,0 +1,45 @@
+<!-- A simple animation that happens when the -->
+<!-- element is scrolled into view -->
+<!-- in this example -->
+<!-- There are 3 cards that scroll into view -->
+<!-- each card has animation delayed -->
+<!-- to provide a wave effect -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="onScroll_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="section section-placeholder">
+        <div class="container container-placeholder">
+            <h1>This is a placeholder DIV</h1>
+            <h2>Scroll Down to see</h2>
+            <h3>An on-scroll microinteraction</h3>
+        </div>
+    </section>
+
+    <section class="section section-onscroll">
+        <div class="container container-onscroll">
+            <!-- <h1>This Div has the scroll animation</h1> -->
+            <div class="cards">
+                <div id="card1" class="card"></div>
+                <div id="card2" class="card"></div>
+                <div id="card3" class="card"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="onScroll_script.js"></script>
+</body>
+
+</html>
