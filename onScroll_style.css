@@ -110,7 +110,7 @@ body {
   width: 50%;
   text-align: end;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 480px) {
   html {
     scroll-behavior: smooth;
   }
@@ -129,6 +129,7 @@ body {
     transform: translateY(80px);
     transition: ease-in-out 1s;
     justify-self: center;
+    margin-bottom: 1rem;
   }
   .card-animation {
     opacity: 1;
